@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: db-config
 data:
-  MYSQL_USER: todoapp
-  MYSQL_PASSWORD: redhat123
+  DATABASE_USER: todoapp
+  DATABASE_PASSWORD: redhat123
   DATABASE_SVC_HOSTNAME: tododb
   DATABASE_NAME: todo
